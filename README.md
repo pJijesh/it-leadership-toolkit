@@ -99,7 +99,7 @@ Planned, not promised. Order and timing change with other work.
 
 ## About
 
-Created by **Jijesh Puliyappottammal**, an IT Manager with more than 15 years of experience across service management (ITIL), project delivery (PRINCE2), vendor management and board reporting.
+Created by **Puliyappottammal Jijesh**, an IT Manager with more than 15 years of experience across service management (ITIL), project delivery (PRINCE2), vendor management and board reporting.
 
 - GitHub: [pJijesh](https://github.com/pJijesh)
 - LinkedIn: [linkedin.com/in/pjijesh](https://www.linkedin.com/in/pjijesh)

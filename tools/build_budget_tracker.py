@@ -74,7 +74,7 @@ def rag_formats(ws, ref):
 
 def build() -> Path:
     wb = Workbook()
-    wb.properties.creator = "Jijesh Puliyappottammal"
+    wb.properties.creator = "Puliyappottammal Jijesh"
     wb.properties.title = "IT budget tracker (fictional example)"
 
     # ------------------------------------------------------------ Guide

@@ -53,7 +53,7 @@ def write_csv() -> Path:
 
 def build_workbook() -> Path:
     wb = Workbook()
-    wb.properties.creator = "Jijesh Puliyappottammal"
+    wb.properties.creator = "Puliyappottammal Jijesh"
     wb.properties.title = "Vendor scorecard (fictional example)"
 
     # ---------------- Guide ----------------
