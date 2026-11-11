@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      # LibreOffice lets the tests recalculate the workbooks and look for error values.
+      # Without it those tests are skipped, so install it here.
+      - name: Install LibreOffice (headless recalculation)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends libreoffice-calc
+
+      - name: Run the vendor scoring script on the example
+        run: python 04-vendor-scorecard/score_vendors.py 04-vendor-scorecard/vendor-scorecard-example.csv
+
+      - name: Run tests
+        run: pytest -v -rs

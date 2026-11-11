@@ -1,0 +1,2 @@
+id,date_raised,title,category,description,likelihood,impact,score,rating,owner,mitigation,status,next_review,trend
+R-000,YYYY-MM-DD,Short title (delete this guidance row),Security / Financial / Operational / People / Project / Commercial / Compliance / Technology,"Because of [cause], [event] may happen, leading to [impact].",3,3,=likelihood x impact (9),Low / Medium / High / Critical,Named role or person,"Actions that reduce likelihood or impact, with dates",Open / Mitigating / Accepted / Closed,YYYY-MM-DD,Rising / Stable / Falling
