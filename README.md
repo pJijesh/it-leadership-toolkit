@@ -1,5 +1,7 @@
 # IT Leadership Toolkit
 
+![IT Leadership Toolkit: project banner](docs/images/banner.png)
+
 [![CI](https://github.com/pJijesh/it-leadership-toolkit/actions/workflows/ci.yml/badge.svg)](https://github.com/pJijesh/it-leadership-toolkit/actions/workflows/ci.yml) [![Licence: MIT](https://img.shields.io/badge/licence-MIT-blue.svg)](LICENSE) ![Python 3.12+](https://img.shields.io/badge/python-3.12%2B-blue.svg)
 
 **Problem:** IT leaders spend too much time rebuilding the same board reports, budget trackers, vendor comparisons and plans from a blank page.
